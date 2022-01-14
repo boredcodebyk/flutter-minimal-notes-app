@@ -25,9 +25,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
 
-    return
-       Scaffold(
-        resizeToAvoidBottomPadding: false,
+    return Scaffold(
         appBar: AppBar(brightness: Brightness.light,
           actions: _appBarActions(),
           elevation: 1,
@@ -54,7 +52,7 @@ class _HomePageState extends State<HomePage> {
       onPressed: () => _newNoteTapped(context),
       icon: Icon(Icons.add),
       label: Text('NEW'),
-    )
+    );
   }
 
   Widget _bottomBar() {

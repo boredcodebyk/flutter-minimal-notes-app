@@ -1,4 +1,4 @@
-package org.myrestapp.notes
+package org.boredcodebyk.notes
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

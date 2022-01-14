@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(brightness: Brightness.light,
           actions: _appBarActions(),
           elevation: 1,
-          backgroundColor: Colors.white,
+          backgroundColor: const Color(0xFFFFFBFE),
           centerTitle: true,
           title: Text("Notes"),
         ),
@@ -49,11 +49,11 @@ class _HomePageState extends State<HomePage> {
 
   Widget _FABNewNote() {
     return FloatingActionButton.extended(
-      backgroundColor: const Color(0xff03dac6),
-      foregroundColor: Colors.black,
-      onPressed: () => _newNoteTapped(context),
-      icon: Icon(Icons.add),
-      label: Text('NEW'),
+      backgroundColor: const Color(0xFFEADDFF),
+      foregroundColor: const Color(0xFF21005E),
+      onPressed: () => _newNoteTapped(context),
+      icon: Icon(Icons.add),
+      label: Text('NEW'),
     )
   }
 
